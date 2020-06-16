@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var price=prompt("Enter price of an item");
+       var quantity=prompt("Enter quantity of an item");
+       var total_exp=0;
+       if(quantity>1000)
+       {
+          tot_price=(quantity*price) ;
+          total_exp=((0.9*tot_price));
+          document.write("Your total expense is: ")
+          document.write(tot_price+"<br>");
+          document.write("Total expense after 10% discount is: ")
+          document.write(total_exp);
+       }
+       else
+      {total_exp=(price*quantity);
+        document.write("Total expense : ")
+       document.write(total_exp);} 
+
+
+        </script>
+</head>
+<body>
+    
+</body>
+</html>

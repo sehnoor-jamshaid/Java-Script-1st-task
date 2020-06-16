@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    var health=prompt("health Condition:");
+    var age=prompt("Age:");
+    var gender=prompt("Gender:");
+    var accomodation=prompt("City or village:");
+    if(health=="excellent" && age>=25&&age<=35&& gender=="male" && accomodation=="city")
+    {
+        document.write("premium is 4 per thousand ");
+        document.write("<br>");
+        document.write("policy cannot exceed more than 2 Lakh");
+        document.write("<br>");
+        document.write("You can be insured ");
+
+        
+    }
+    else if(health=="excellent" && age>=25&&age<=35&& gender=="female" && accomodation=="city")
+    {
+        document.write("premium is 3 per thousand ");
+        document.write("<br>");
+        document.write("policy cannot exceed more than 1 Lakh");
+        document.write("<br>");
+        document.write("You can be insured ");
+
+        
+    }
+    else if(health=="poor" && age>=25&&age<=35&& gender=="male" && accomodation=="village")
+    {
+        document.write("premium is 6 per thousand ");
+        document.write("<br>");
+        document.write("policy cannot exceed more than 10,000");
+        document.write("<br>");
+        document.write("You can be insured ");
+
+        
+    }
+    else 
+    {
+    
+        document.write("You cannot be insured ");
+
+        
+    }
+        </script>
+
+</head>
+<body>
+    
+</body>
+</html>

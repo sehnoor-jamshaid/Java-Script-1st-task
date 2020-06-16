@@ -1,0 +1,38 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+  
+        var hardness=prompt("enter hardness");
+        var carbon=prompt("enter carbon quantity");
+        var strength=prompt("enter tensile strength ");
+        
+        if(carbon<0.7 && hardness>50&&strength >5600)
+        {document.write("Grade 10");
+        }
+       else if(hardness>50 && carbon<0.7 && strength<=5600)
+        {document.write("Grade 9");
+        }
+       else if(carbon<0.7 && strength>5600 && hardness<=50)
+        {document.write("Grade 8");
+        }
+        else if( hardness>50 &&strength>5600 && carbon>=0.7)
+        {document.write("Grade 7");
+        }
+        else if( hardness>50 || strength>5600 || carbon<0.7)
+        {document.write("Grade 6");
+        }
+       else 
+        {document.write("Grade 5");
+        }
+        
+        </script>
+</head>
+<body>
+    
+</body>
+</html>
